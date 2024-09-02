@@ -1,0 +1,112 @@
+[
+  {
+    "app_name": "telegram-wallet",
+    "name": "Wallet",
+    "image": "https://wallet.tg/images/logo-288.png",
+    "about_url": "https://wallet.tg/",
+    "universal_url": "https://t.me/wallet?attach=wallet&mode=compact",
+    "bridge": [
+      {
+        "type": "sse",
+        "url": "https://bridge.ton.space/bridge"
+      }
+    ],
+    "platforms": ["ios", "android", "macos", "windows", "linux"]
+  },
+  {
+    "app_name": "tonkeeper",
+    "name": "Tonkeeper",
+    "image": "https://tonkeeper.com/assets/tonconnect-icon.png",
+    "tondns": "tonkeeper.ton",
+    "about_url": "https://tonkeeper.com",
+    "universal_url": "https://app.tonkeeper.com/ton-connect",
+    "deepLink": "tonkeeper-tc://",
+    "bridge": [
+      {
+        "type": "sse",
+        "url": "https://bridge.tonapi.io/bridge"
+      },
+      {
+        "type": "js",
+        "key": "tonkeeper"
+      }
+    ],
+    "platforms": ["ios", "android", "chrome", "firefox", "macos"]
+  },
+  {
+    "app_name": "mytonwallet",
+    "name": "MyTonWallet",
+    "image": "https://static.mytonwallet.io/icon-256.png",
+    "about_url": "https://mytonwallet.io",
+    "universal_url": "https://connect.mytonwallet.org",
+    "bridge": [
+      {
+        "type": "js",
+        "key": "mytonwallet"
+      },
+      {
+        "type": "sse",
+        "url": "https://tonconnectbridge.mytonwallet.org/bridge/"
+      }
+    ],
+    "platforms": [
+      "chrome",
+      "windows",
+      "macos",
+      "linux",
+      "ios",
+      "android",
+      "firefox"
+    ]
+  },
+  {
+    "app_name": "openmask",
+    "name": "OpenMask",
+    "image": "https://raw.githubusercontent.com/OpenProduct/openmask-extension/main/public/openmask-logo-288.png",
+    "about_url": "https://www.openmask.app/",
+    "bridge": [
+      {
+        "type": "js",
+        "key": "openmask"
+      }
+    ],
+    "platforms": ["chrome"]
+  },
+  {
+    "app_name": "bitgetTonWallet",
+    "name": "Bitget Wallet",
+    "image": "https://raw.githubusercontent.com/bitkeepwallet/download/main/logo/png/bitget_wallet_logo_0_gas_fee.png",
+    "about_url": "https://web3.bitget.com",
+    "deepLink": "bitkeep://",
+    "bridge": [
+      {
+        "type": "js",
+        "key": "bitgetTonWallet"
+      },
+      {
+        "type": "sse",
+        "url": "https://ton-connect-bridge.bgwapi.io/bridge"
+      }
+    ],
+    "platforms": ["ios", "android", "chrome"],
+    "universal_url": "https://bkcode.vip/ton-connect"
+  },
+  {
+    "app_name": "okxTonWallet",
+    "name": "OKX Wallet",
+    "image": "https://static.okx.com/cdn/assets/imgs/247/58E63FEA47A2B7D7.png",
+    "about_url": "https://www.okx.com/web3",
+    "universal_url": "https://www.okx.com/download?appendQuery=true&deeplink=okx://web3/wallet/tonconnect",
+    "bridge": [
+      {
+        "type": "js",
+        "key": "okxTonWallet"
+      },
+      {
+        "type": "sse",
+        "url": "https://www.okx.com/tonbridge/discover/rpc/bridge"
+      }
+    ],
+    "platforms": ["chrome", "safari", "firefox", "ios", "android"]
+  }
+]
